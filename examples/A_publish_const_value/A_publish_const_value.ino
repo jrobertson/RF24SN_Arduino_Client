@@ -12,8 +12,8 @@
 
 //RF24 driver:
 //see wiring image how to wire up the nRF24L01
-#define RF24_CE_PIN 9
-#define RF24_CS_PIN 10
+#define RF24_CE_PIN 7
+#define RF24_CS_PIN 8
 //call the constructor
 RF24 radio(RF24_CE_PIN, RF24_CS_PIN);
 
